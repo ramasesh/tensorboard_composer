@@ -38,6 +38,6 @@ def piano_frequency(note_num, middle_c=True):
   if not middle_c:
     return np.power(2, (note_num - 49.)/12) * 440
   else:
-    return np.power(2, (n - 9.)/12) * 440
+    return np.power(2, (note_num - 9.)/12) * 440
 
 
