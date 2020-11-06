@@ -1,4 +1,6 @@
-# Convert any sequence of notes into TensorBoard-playable audio
+# Play songs using TensorBoard
+
+It turns out TensorBoard has an audio feature.  Any waveform can be written to TensorBoard, and then played.  While this is commonly used to evaluate generative audio models or examine training data for speech classification systems, we can also directly write a song directly and have TensorBoard play this for us.
 
 ## Example: Happy birthday
 
